@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace FindMaximum
 {
@@ -6,7 +7,11 @@ namespace FindMaximum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Find Maximum Problem using Generics");
+
+            Test test = new Test();
+            test.TestForMax();
+
         }
     }
 }
