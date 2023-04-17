@@ -26,5 +26,16 @@ namespace FindMaximum
             float max = obj.FloatMaxValue(a, b, c);
             Console.WriteLine(max);
         }
+        public void stringTestFormax()
+        {
+            Console.WriteLine(" enter three name like apple,graeps,orenge ");
+            string a = Console.ReadLine();
+            string b = Console.ReadLine();
+            string c = Console.ReadLine();
+            MaxValue obj = new MaxValue();
+            string max = obj.stringMaxvalue(a, b, c);
+            Console.WriteLine(max);
+
+        }
     }
 }
